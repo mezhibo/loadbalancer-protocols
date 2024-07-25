@@ -38,7 +38,7 @@ SW0#show etherchannel summary
 
 Настроим SW1
 
-'''
+```
 
 Switch(config)#hostname SW1
 SW1(config)#int ran fa0/1-4
@@ -50,7 +50,7 @@ SW1(config-if)#exi
 SW1(config)#exi
 SW1#wr
 
-'''
+```
 
 
 ![alt text](https://github.com/mezhibo/loadbalancer-protocols/blob/69201cb70fab2915c3582d083324d3718daeedf4/IMG/5.jpg)
@@ -58,11 +58,11 @@ SW1#wr
 
 Вернемся и запустим порты на SW0
 
-'''
+```
 SW0(config)#int ran fa0/1-4
 SW0(config-if-range)#no sh
 
-'''
+```
 
 
 Линки пошли - теперь проверим коннект между рабочими станциями 
