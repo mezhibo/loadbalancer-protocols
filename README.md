@@ -1,6 +1,3 @@
-![alt text](https://github.com/mezhibo/Vvedenie-terraform/blob/3e854dd0d95703c0b43a8573959d44d12580f173/IMG/4.jpg)
-
-
 
 **Задание 1**
 
