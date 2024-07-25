@@ -15,7 +15,7 @@
  Настроим свитч SW0
  
  
- '''
+ ```
 SW0(config)#int ran fa0/1-4
 SW0(config-if-range)#sh
 SW0(config-if-range)#channel-group 1 mode on
@@ -26,7 +26,7 @@ SW0(config-if)#exi
 SW0(config)#exi
 SW0#wr
 SW0#show etherchannel summary
-'''
+```
 
 Проверим конфигурацию
 
